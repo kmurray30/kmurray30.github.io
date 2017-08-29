@@ -4,6 +4,8 @@ body {
     background: black; /*#190707;*/
     font-family: 'Raleway', sans-serif;
     font-size: 11pt;
+    -webkit-text-size-adjust: 100%;
+}
   }
 
   .container {
