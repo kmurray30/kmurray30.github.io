@@ -172,9 +172,8 @@ body {
         }
 
         #logo button#button {
-          padding-left: 0em;
-          padding-right: 4em;
-          color: red;
+          padding-left: 0;
+          padding-right: 0;
         }
 
   #tail {
