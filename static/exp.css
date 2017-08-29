@@ -1,0 +1,81 @@
+
+
+#banner.non-home
+{
+  background: url("./img/earth.jpg") no-repeat center center;
+  background-size: cover;
+  max-height: 500px;
+  height: 245px;
+}
+
+
+  #content {
+    background: #001f3f; /*url("../img/light-bg.jpg") no-repeat center center;*/
+    color: #5883B0;
+    text-align: left;
+    padding: 30px;
+  }
+
+    #content #left-pane {
+      padding: 0 0 0 0;
+    }
+
+    #content #left-pane .row {
+      margin: 20px;
+      margin-right: 0px;
+    }
+
+      #content .row .exp {
+        padding: 20px;
+        text-align: bottom;
+        float: left;
+      }
+
+        #content .row .active {
+          background-color: #5883B0;
+          color: #001f3f;
+          border-radius: 5px 0px 0px 5px;
+        }
+
+        #content .hovered {
+          background-color: #02458A;
+          color: white;
+          border-radius: 5px 0px 0px 5px;
+        }
+
+            #content #left-pane img.thumb {
+              height: 120px;
+              width: 120px;
+              margin-right: 5px;
+              display: block;
+              border-radius: 5px;
+            }
+
+            #content #left-pane p {
+              font-size: 24px;
+              /*position: bottom;*/
+            }
+
+            #content #left-pane .row .exp .text {
+              /*color: #c0745d;*/
+            }
+
+    #content #right-pane {
+      background-color: #5883B0;
+      color: #001f3f;
+      padding-top: 30px;
+      padding-left: 50px;
+      overflow: auto;
+      min-height: 1319px;
+      border-radius: 5px 5px 5px 0px;
+    }
+
+      #content #right-pane h1 {
+        margin: 0px;
+        margin-bottom: 20px;
+      }
+
+      #content #right-pane img.banner {
+        height: 200px;
+        width: auto;
+      }
