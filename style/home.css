@@ -97,6 +97,10 @@
             color: #C7CAE0;
           }
 
+          #footer #left-pane .hobby p b {
+            margin-left: 10px;
+          }
+
     #footer #right-pane {
       background-color: #C7CAE0;
       color: #101641;
