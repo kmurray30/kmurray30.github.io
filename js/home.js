@@ -144,6 +144,6 @@ function sleep(ms) {
   }, ms);;
 }
 
-$('.hobby').on('click touchstart', makeActive)
+$('.hobby').on('click touchstart mousedown', makeActive)
 
 
