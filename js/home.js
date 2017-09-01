@@ -2,7 +2,7 @@
 makeActive(document.getElementById("skydive-hobby"));
 
 function makeActive(element) {
-	alert("Hello");
+	alert("Hello2");
 	// console.log("makeActive called")
 	// var element = element.classList ? element : this;
 	// // var isEmpty = element.id == "empty-info";
@@ -41,7 +41,7 @@ function makeActive(element) {
 	// rPane.innerHTML = infoEl.innerHTML;
 
 
-	
+
 	// var delay = 1;
 	// element.style.transition = "all " + delay + "s linear 0s";
 	// invis(rPane);
