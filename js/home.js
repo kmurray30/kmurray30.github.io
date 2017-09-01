@@ -2,43 +2,48 @@
 makeActive(document.getElementById("skydive-hobby"));
 
 function makeActive(element) {
+	alert("Hello1");
+	console.log("makeActive called")
+	var element = element.classList ? element : this;
 	alert("Hello2");
-	// console.log("makeActive called")
-	// var element = element.classList ? element : this;
-	// // var isEmpty = element.id == "empty-info";
-	// var isActive = element.classList.contains("active");
-	// var rPane = document.getElementById("right-pane");
-	// var infoEl = document.getElementById("empty-info");
-	// element.style.transition = "all 0.1s linear 0s";
-	// for (hobby of document.getElementsByClassName("hobby")) {
-	// 	hobby.classList.remove("active");
-	// }
-	// // document.getElementById("right-pane").style.background = "#c0745d";
-	// if (isActive) {
-	// 	element.classList.remove("active");
-	// 	// rPane.style.background = "#372019";
-	// } else {
-	// 	element.classList.add("active");
-	// 	if (element.id == "piano-hobby") {
-	// 		var infoEl = document.getElementById("piano-info");
-	// 	}
-	// 	if (element.id == "skydive-hobby") {
-	// 		var infoEl = document.getElementById("skydive-info");
-	// 	}
-	// 	if (element.id == "cat-hobby") {
-	// 		var infoEl = document.getElementById("cat-info");
-	// 	}
-	// 	if (element.id == "logic-hobby") {
-	// 		var infoEl = document.getElementById("logic-info");
-	// 	}
-	// 	if (element.id == "unity-hobby") {
-	// 		var infoEl = document.getElementById("unity-info");
-	// 	}
-	// 	if (element.id == "track-hobby") {
-	// 		var infoEl = document.getElementById("track-info");
-	// 	}
-	// }
-	// rPane.innerHTML = infoEl.innerHTML;
+	// var isEmpty = element.id == "empty-info";
+	var isActive = element.classList.contains("active");
+	var rPane = document.getElementById("right-pane");
+	var infoEl = document.getElementById("empty-info");
+	element.style.transition = "all 0.1s linear 0s";
+	for (hobby of document.getElementsByClassName("hobby")) {
+		hobby.classList.remove("active");
+	}
+	// document.getElementById("right-pane").style.background = "#c0745d";
+
+	alert("Hello3");
+	if (isActive) {
+		element.classList.remove("active");
+		// rPane.style.background = "#372019";
+	} else {
+		element.classList.add("active");
+		if (element.id == "piano-hobby") {
+			var infoEl = document.getElementById("piano-info");
+		}
+		if (element.id == "skydive-hobby") {
+			var infoEl = document.getElementById("skydive-info");
+		}
+		if (element.id == "cat-hobby") {
+			var infoEl = document.getElementById("cat-info");
+		}
+		if (element.id == "logic-hobby") {
+			var infoEl = document.getElementById("logic-info");
+		}
+		if (element.id == "unity-hobby") {
+			var infoEl = document.getElementById("unity-info");
+		}
+		if (element.id == "track-hobby") {
+			var infoEl = document.getElementById("track-info");
+		}
+	}
+
+	alert("Hello4");
+	rPane.innerHTML = infoEl.innerHTML;
 
 
 
@@ -147,6 +152,6 @@ function sleep(ms) {
   }, ms);;
 }
 
-$('.hobby').on('click touchstart mousedown', makeActive)
+$('.hobby').on('mousedown', makeActive)
 
 
