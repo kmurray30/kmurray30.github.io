@@ -2,6 +2,7 @@
 makeActive(document.getElementById("skydive-hobby"));
 
 function makeActive(element) {
+	var element = element.classList ? element : this;
 	// var isEmpty = element.id == "empty-info";
 	var isActive = element.classList.contains("active");
 	var rPane = document.getElementById("right-pane");
@@ -140,3 +141,7 @@ function sleep(ms) {
     //do what you need here
   }, ms);;
 }
+
+$('.hobby').on('click touchstart', makeActive)
+
+
