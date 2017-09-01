@@ -2,7 +2,7 @@
 makeActive(document.getElementById("skydive-hobby"));
 
 function makeActive(element) {
-	alert("HI");
+	alert("Hello");
 	console.log("makeActive called")
 	var element = element.classList ? element : this;
 	// var isEmpty = element.id == "empty-info";
