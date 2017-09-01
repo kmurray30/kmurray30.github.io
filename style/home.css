@@ -53,8 +53,8 @@
       }*/
 
   #footer {
-    background: #001f3f;
-    color: #5883B0;
+    background: #101641;
+    color: #C7CAE0;
     text-align: left;
     padding: 30px;
   }
@@ -74,8 +74,8 @@
       }
 
         #footer .row .active {
-          background-color: #5883B0;
-          color: #001f3f;
+          background-color: #C7CAE0;
+          color: #101641;
           border-radius: 5px;
         }
 
@@ -94,12 +94,12 @@
           }
 
           #footer #left-pane .row .hobby .text {
-            color: #5883B0;
+            color: #C7CAE0;
           }
 
     #footer #right-pane {
-      background-color: #5883B0;
-      color: #001f3f;
+      background-color: #C7CAE0;
+      color: #101641;
       padding-top: 30px;
       padding-left: 50px;
       overflow: auto;
@@ -115,4 +115,8 @@
       #footer #right-pane img.banner {
         height: 200px;
         width: auto;
+      }
+
+      #footer #right-pane p {
+        margin-top: 20px;
       }
