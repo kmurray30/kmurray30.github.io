@@ -1,7 +1,9 @@
+alert("HI");
 
 makeActive(document.getElementById("skydive-hobby"));
 
 function makeActive(element) {
+	console.log("makeActive called")
 	var element = element.classList ? element : this;
 	// var isEmpty = element.id == "empty-info";
 	var isActive = element.classList.contains("active");
