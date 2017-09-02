@@ -15,11 +15,13 @@ function makeActive(element) {
 	alert("3");
 	element.style.transition = "all 0.1s linear 0s";
 	alert("4");
-	for (hobby of document.getElementsByClassName("hobby")) {
+	hobbyList = document.getElementsByClassName("hobby");
+	alert("5")
+	for (hobby of hobbyList) {
 		alert(hobby);
 		hobby.classList.remove("active");
 	}
-	alert("5");
+	alert("6");
 	// document.getElementById("right-pane").style.background = "#c0745d";
 
 	// alert("Hello3");
