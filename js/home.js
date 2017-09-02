@@ -16,6 +16,7 @@ function makeActive(element) {
 	element.style.transition = "all 0.1s linear 0s";
 	alert("4");
 	for (hobby of document.getElementsByClassName("hobby")) {
+		alert(hobby);
 		hobby.classList.remove("active");
 	}
 	alert("5");
