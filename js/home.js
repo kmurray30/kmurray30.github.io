@@ -2,10 +2,10 @@
 makeActive(document.getElementById("skydive-hobby"));
 
 function makeActive(element) {
-	alert("Hello1");
+	// alert("Hello1");
 	console.log("makeActive called")
 	var element = element.classList ? element : this;
-	alert("Hello2");
+	alert(element);
 	// var isEmpty = element.id == "empty-info";
 	var isActive = element.classList.contains("active");
 	var rPane = document.getElementById("right-pane");
