@@ -8,15 +8,20 @@ function makeActive(element) {
 	alert(element);
 	// var isEmpty = element.id == "empty-info";
 	var isActive = element.classList.contains("active");
+	alert("1");
 	var rPane = document.getElementById("right-pane");
+	alert("2");
 	var infoEl = document.getElementById("empty-info");
+	alert("3");
 	element.style.transition = "all 0.1s linear 0s";
+	alert("4");
 	for (hobby of document.getElementsByClassName("hobby")) {
 		hobby.classList.remove("active");
 	}
+	alert("5");
 	// document.getElementById("right-pane").style.background = "#c0745d";
 
-	alert("Hello3");
+	// alert("Hello3");
 	if (isActive) {
 		element.classList.remove("active");
 		// rPane.style.background = "#372019";
