@@ -16,13 +16,13 @@ function makeActive(element) {
 	element.style.transition = "all 0.1s linear 0s";
 	// alert("4");
 	hobbyList = document.getElementsByClassName("hobby");
-	alert("5");
+	// alert("5");
 	alert(hobbyList);
-	for (hobby of hobbyList) {
-		alert(hobby);
+	for (hobby in hobbyList) {
+		// alert(hobby);
 		hobby.classList.remove("active");
 	}
-	alert("6");
+	// alert("6");
 	// document.getElementById("right-pane").style.background = "#c0745d";
 
 	// alert("Hello3");
@@ -51,7 +51,7 @@ function makeActive(element) {
 		}
 	}
 
-	alert("Hello4");
+	// alert("Hello4");
 	rPane.innerHTML = infoEl.innerHTML;
 
 
