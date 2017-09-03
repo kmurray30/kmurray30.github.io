@@ -17,7 +17,7 @@ function makeActive(element) {
 	// alert("4");
 	hobbyList = document.getElementsByClassName("hobby");
 	// alert("5");
-	alert(hobbyList);
+	// alert(hobbyList);
 	for (hobby in hobbyList) {
 		// alert(hobby);
 		hobby.classList.remove("active");
