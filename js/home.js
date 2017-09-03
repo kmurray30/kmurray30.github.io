@@ -18,10 +18,10 @@ function makeActive(element) {
 	hobbyList = document.getElementsByClassName("hobby");
 	// alert("5");
 	// alert(hobbyList);
-	for (hobby in hobbyList) {
-		// alert(hobby);
-		hobby.classList.remove("active");
-	}
+	// for (hobby in hobbyList) {
+	// 	// alert(hobby);
+	// 	hobby.classList.remove("active");
+	// }
 	// alert("6");
 	// document.getElementById("right-pane").style.background = "#c0745d";
 
