@@ -83,6 +83,8 @@ body {
     float: left;
     z-index: 2;
     clear: both;
+    opacity: 0.5;
+    -webkit-filter: brightness(130%); 
   }
 
   #nav
@@ -184,7 +186,7 @@ body {
   
     #tail p {
       font-size: 14px;
-      color: #5883B0;
+      color: #C7CAE0;
       text-align: center;
     }
 

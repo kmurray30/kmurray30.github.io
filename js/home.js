@@ -148,17 +148,18 @@ function makeActive(element) {
 // 	}
 // }
 
-function onHover(element) {
+function makeHover(element) {
 	// for (hobby of document.getElementsByClassName("hobby")) {
 	// 	hobby.classList.remove("hovered");
 	// }
-	element.classList.add("hovered");
+	this.classList.add("hovered");
 }
 
 function dehover(element) {
-	for (hobby of document.getElementsByClassName("hobby")) {
-		hobby.classList.remove("hovered");
-	}
+	// for (hobby of document.getElementsByClassName("hobby")) {
+	// 	hobby.classList.remove("hovered");
+	// }
+	this.classList.remove("hovered");
 }
 
 function sleep(ms) {
@@ -168,5 +169,7 @@ function sleep(ms) {
 }
 
 $('.hobby').on('mousedown', makeActive)
+$('.hobby').on('mouseover', makeHover)
+$('.hobby').on('mouseout', dehover)
 
 
