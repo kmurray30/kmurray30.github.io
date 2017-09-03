@@ -18,9 +18,15 @@ function makeActive(element) {
 	hobbyList = document.getElementsByClassName("hobby");
 	// alert("5");
 	// alert(hobbyList);
-	// for (hobby in hobbyList) {
-	// 	// alert(hobby);
-	// 	hobby.classList.remove("active");
+	// hobbyList.forEach(remove);
+	for (var i = 0; i < hobbyList.length; i++) {
+		// alert(i);
+		// alert(hobbyList[i])
+	  	hobbyList[i].classList.remove("active");
+	}
+	// for (hobby of hobbyList) {
+	// 	alert(hobby);
+	// 	// hobby.classList.remove("active");
 	// }
 	// alert("6");
 	// document.getElementById("right-pane").style.background = "#c0745d";
