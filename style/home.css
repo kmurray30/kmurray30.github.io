@@ -135,8 +135,10 @@
       }
 
       #footer #right-pane img.banner {
-        height: 200px;
+        height: auto;
         width: auto;
+        max-height: 300px;
+        max-width: 100%;
         margin: 20px auto;
         display: block;
       }
