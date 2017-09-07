@@ -9,21 +9,24 @@ $(document).ready(function(){
     windowsize = $window.width();
 
         console.log(windowsize);
-        if (windowsize < 850) 
+        // var navRect = document.getElementById("nav").getBoundingClientRect();
+        // var headerRect = document.getElementById("logo").getBoundingClientRect();
+        // console.log(headerRect.right + " | " + navRect.left);
+        if (windowsize < 940) 
         {
             document.getElementById("nav").style.display = "none";
             document.getElementById("button").style.display = "block";
         	document.getElementById("header-text").style.paddingTop="10px";
 			var disp = document.getElementById("dropdown").style.display;
         	if (disp == "none" || disp == "") {
-				document.getElementById("header").style.height = "100px";
+				document.getElementById("header").style.minHeight = "100px";
         	}
         } else {
         	document.getElementById("nav").style.display = "block";
         	document.getElementById("button").style.display = "none";
         	document.getElementById("dropdown").style.display = "none";
         	document.getElementById("header-text").style.paddingTop="40px";
-			document.getElementById("header").style.height = "160px";
+			document.getElementById("header").style.minHeight = "160px";
         }
     }).resize();
 

@@ -2,28 +2,16 @@
 makeActive(document.getElementById("skydive-hobby"));
 
 function makeActive(element) {
-	// alert("Hello1");
-	console.log("makeActive called")
 	var element = element.classList ? element : this;
-	// alert(element);
-	// var isEmpty = element.id == "empty-info";
 	var isActive = element.classList.contains("active");
-	// alert("1");
 	var rPane = document.getElementById("right-pane");
-	// alert("2");
 	var infoEl = document.getElementById("empty-info");
-	// alert("3");
 	element.style.transition = "all 0.1s linear 0s";
-	// alert("4");
 	hobbyList = document.getElementsByClassName("hobby");
-	// alert("5");
-	// alert(hobbyList);
-	// hobbyList.forEach(remove);
 	for (var i = 0; i < hobbyList.length; i++) {
-		// alert(i);
-		// alert(hobbyList[i])
 	  	hobbyList[i].classList.remove("active");
 	}
+
 	// for (hobby of hobbyList) {
 	// 	alert(hobby);
 	// 	// hobby.classList.remove("active");

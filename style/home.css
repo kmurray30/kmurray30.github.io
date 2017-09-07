@@ -3,22 +3,37 @@
     padding: 0em 0em 0em 0em;
     /*min-height: 600px;*/
     position: relative;
-    padding-left: 50px;
-    padding-right: 15vw;
+   /*padding-left: 50px;
+    padding-right: 15vw;*/
     font-size: 15pt;
+    color: #101641;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
     #pro-pic img
     {
-      float: left;
+      /*padding: 50px;*/
+      /*border: 0px;*/
+
+      margin-left: 50px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      width: calc(100% - 100px); /*second part has to be twice the margin*/
+      border-radius: 10px;
+      /*max-width: 200px;*/
+
+
+      /*padding-right: 100px;*/
+      /*float: left;
       padding: 10px 10px 10px 10px;
       display: block;
-      max-width:400px;
-      max-height:400px;
+      max-width: 400px;
+      max-height: 400px;
       width: 80vw;
       height: 80vw;
       margin-right: 10vw;
-      margin-bottom: 20px;
+      margin-bottom: 20px;*/
     }
 
     #content h1 {
@@ -33,7 +48,7 @@
 
     #content .paragraph {
       position: relative;
-      margin-bottom: 10px;
+      /*padding-left: 20px;*/
     }
 
     /*#content .timeline
@@ -69,7 +84,7 @@
     }
 
       #footer .row .hobby {
-        padding: 20px;
+        padding: 20px 20px 15px 20px;
         text-align: bottom;
       }
 
@@ -80,15 +95,18 @@
         }
 
         #footer .hovered {
-          background-color: #02458A;
+          background-color: #424771;
           color: white;
           border-radius: 5px;
         }
 
           #footer #left-pane img.thumb {
-            height: 100px;
-            width: 100px;
-            margin-right: 5px;
+            max-height: 100px;
+            max-width: 100px;
+            height: 20vw;
+            width: 20vw;
+            margin-right: 15px;
+            margin-bottom: 5px;
             display: block;
             border-radius: 5px;
           }
@@ -97,8 +115,8 @@
             color: #C7CAE0;
           }
 
-          #footer #left-pane .hobby p b {
-            margin-left: 10px;
+          #footer #left-pane .hobby p b em{
+            visibility: hidden;
           }
 
     #footer #right-pane {
@@ -119,8 +137,6 @@
       #footer #right-pane img.banner {
         height: 200px;
         width: auto;
-      }
-
-      #footer #right-pane p {
-        margin-top: 20px;
+        margin: 20px auto;
+        display: block;
       }

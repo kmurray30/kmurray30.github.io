@@ -1,10 +1,12 @@
 body {
+    font-family: Courier;
     margin: 0px;
     padding: 0px;
     background: black; /*#190707;*/
-    font-family: 'Raleway', sans-serif;
+    /*font-family: 'Raleway', sans-serif;*/
     font-size: 11pt;
     -webkit-text-size-adjust: 100%;
+    overflow-x: hidden; 
 }
   }
 
@@ -16,17 +18,18 @@ body {
   #header
   {
     position: relative;
-    height: 160px;
+    min-height: 160px;
   }
 
     #header #header-text
     {
+      font-size: 11pt;
       color: white;
       margin-left: 12vw;
       padding-top: 40px;
       padding-bottom: 40px;
       position: relative;
-      font-weight: 600;
+      font-weight: 300;
     }
 
       #header #button {
@@ -39,6 +42,7 @@ body {
         float: right;
         margin-right: 30px;
         margin-top: 20px;
+        margin-bottom: 10px;
         /*right: 30px;
         bottom: 10px;
         position: absolute;*/
@@ -83,7 +87,7 @@ body {
     float: left;
     z-index: 2;
     clear: both;
-    opacity: 0.5;
+    opacity: 0.6;
     -webkit-filter: brightness(130%); 
   }
 
@@ -169,7 +173,7 @@ body {
 
         #dropdown li.active a
         {
-          background: #C06464;
+          background: #02458A;
           border-radius: 5px;
         }
 
