@@ -122,8 +122,8 @@
     #footer #right-pane {
       background-color: #C7CAE0;
       color: #101641;
+      padding: calc(20px + 2vw);
       padding-top: 30px;
-      padding-left: 50px;
       overflow: auto;
       min-height: 539px;
       border-radius: 5px;
