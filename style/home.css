@@ -7,8 +7,7 @@
     padding-right: 15vw;*/
     font-size: 15pt;
     color: #101641;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px;
   }
 
     #pro-pic img
@@ -46,8 +45,9 @@
       /*margin-right: 15vw;*/
     }
 
-    #content .paragraph {
+    #content .paragraph p {
       position: relative;
+      padding-top: 1vw;
       /*padding-left: 20px;*/
     }
 
