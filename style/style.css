@@ -52,7 +52,7 @@ body {
       {
         float: left;
         font-weight: 500;
-        /*font-size: calc(30px + 1vw);*/
+        font-size: calc(30px + 1vw);
       }
 
       #header #dropdown
